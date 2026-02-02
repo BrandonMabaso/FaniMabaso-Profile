@@ -1,0 +1,78 @@
+/* RESET */
+* {margin:0; padding:0; box-sizing:border-box;}
+body {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height:1.6; background:#fff; color:#000;}
+
+/* HERO */
+.hero {display:flex; flex-wrap:wrap; justify-content:center; align-items:center; padding:80px 50px; background:#87ceeb; color:#000; text-align:center;}
+.hero-text h1 {font-size:3rem; font-weight:bold;}
+.hero-text .role {font-size:1.5rem; margin:10px 0;}
+.hero-buttons {margin-top:20px;}
+.btn {display:inline-block; padding:12px 25px; background:#000; color:#fff; border-radius:25px; text-decoration:none; transition:0.3s; margin:5px;}
+.btn:hover {background:#333;}
+.cv-btn {background:#000;}
+.cv-btn:hover {background:#444;}
+.hero-image img {width:200px; border-radius:50%; border:3px solid #000; margin-top:20px;}
+
+/* SECTIONS */
+.section-bg {background:#fff; padding:50px 20px;}
+section {max-width:900px; margin:50px auto; text-align:center;}
+h2 {font-size:2rem; font-weight:bold; margin-bottom:20px;}
+
+/* ABOUT */
+.about-container {display:flex; align-items:center; justify-content:center; gap:30px; flex-wrap:wrap; margin-top:20px;}
+.about-text {flex:1; min-width:250px; text-align:center;}
+.about-image {flex:0 0 200px;}
+.about-image img {width:100%; border-radius:50%; border:3px solid #87ceeb;}
+
+/* ABOUT section background variant with dim overlay */
+.section-bg.with-bg {
+    position:relative;
+    background-image: url('assets/profile.png'), url('assets/profile.svg');
+    background-size: cover, contain;
+    background-position: right center, right center;
+    background-repeat: no-repeat, no-repeat;
+    color: #fff;
+}
+.section-bg.with-bg::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+    pointer-events: none;
+}
+.section-bg.with-bg .about-container,
+.section-bg.with-bg h2 {
+    position: relative;
+    z-index: 1;
+}
+.section-bg.with-bg .about-text {text-align:left;}
+.section-bg.with-bg .about-text p {color:#fff}
+
+/* Hero visible circular profile (uses SVG fallback too) */
+.hero-image img {width:200px; height:200px; object-fit:cover; border-radius:50%; border:3px solid #000;}
+
+/* SUBSECTIONS */
+.subsection {margin:30px 0;}
+.subsection h3 {font-weight:bold; margin-bottom:10px;}
+.subsection ul {list-style:none; text-align:center;}
+.subsection ul li {margin:5px 0; padding-left:0; position:relative;}
+.subsection ul li:before {content:'\2022'; color:#000; font-weight:bold; display:inline-block; width:1em; margin-left:-1em;}
+
+/* DOTTED LIST */
+.dotted-list {list-style:none; padding-left:0; text-align:center;}
+.dotted-list li {margin:8px 0; border-bottom:1px dotted #87ceeb; padding-bottom:5px;}
+.cert-btn {display:block; margin:10px auto; width:fit-content;}
+
+/* SOCIAL MEDIA ICONS */
+.social-media {text-align:center; margin:30px 0;}
+.social-media i {margin:0 15px; color:#000; transition:0.3s;}
+.social-media i:hover {color:#87ceeb; transform:scale(1.2);}
+
+/* FOOTER */
+footer {text-align:center; padding:20px; background:#87ceeb; color:#000;}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+    .hero {flex-direction:column; text-align:center;}
+    .about-container {flex-direction:column;}
+}
