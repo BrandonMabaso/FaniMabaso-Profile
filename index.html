@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fani (Brandon) Mabaso | Portfolio</title>
+    <title>Fani Mabaso | Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Font Awesome for social icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -13,96 +12,166 @@
     <!-- HERO SECTION -->
     <header class="hero">
         <div class="hero-text">
-            <h1>Hi, I'm Fani Mabaso</h1>
-            <p class="role">Final Year BSc IT Student | Data Analytics Enthusiast</p>
+            <h1>Fani Mabaso</h1>
+            <p class="role">Final Year BSc IT Student | Data, Software &amp; Systems</p>
             <p class="typing-text" id="typing"></p>
             <div class="hero-buttons">
                 <a href="#contact" class="btn">Get in Touch</a>
-                <a href="assets/BrandonMabaso_CV.pdf" class="btn cv-btn" download>Download CV</a>
+                <a href="assets/FaniMabaso_CV.pdf" class="btn cv-btn" download>Download CV</a>
             </div>
         </div>
         <div class="hero-image">
-            <img src="assets/profile.png" alt="Brandon Mabaso">
+            <img src="assets/profile.png" alt="Fani Mabaso" onerror="this.style.display='none'">
         </div>
     </header>
 
     <!-- ABOUT ME -->
-    <section id="about" class="section-bg with-bg">
+    <section id="about" class="section-bg with-bg reveal">
         <h2>About Me</h2>
         <div class="about-container">
             <div class="about-text">
                 <p>
-                    I am a final-year IT student at North-West University (NWU), focused on Data Analytics. 
-                    I have completed certifications in Introduction to Cyber Security, Introduction to Data Science, 
-                    and Data Analytics Essentials, with foundational skills in Tableau and dashboarding. 
-                    My university journey has equipped me with Python, SQL, Excel, C++ and Java (OOP), 
-                    C# (.NET web development), HTML, CSS, project management, and information security, 
-                    supported by Cisco Networking Academy certifications, enabling me to analyze and manage data effectively and securely.
+                    I am a final-year IT student at North-West University (NWU), with a particular focus on
+                    Data Analytics alongside broader software development and systems work. I've completed
+                    certifications in Introduction to Cyber Security, Introduction to Data Science, and Data
+                    Analytics Essentials through the Cisco Networking Academy. My degree has equipped me with
+                    Python,Java, SQL, Excel, C++, OOP, HTML and CSS, database design, and
+                    Systems Analysis enabling me to build, analyze and secure practical technology solutions.
                 </p>
             </div>
         </div>
     </section>
 
     <!-- SKILLS & EXPERTISE -->
-    <section id="skills">
-        <h2>Skills & Expertise</h2>
-        <div class="subsection">
-            <h3>Technical Skills</h3>
-            <ul>
-                <li>Data Analytics</li>
-                <li>Statistics</li>
-                <li>SQL & Databases</li>
-                <li>Excel & Decision Support</li>
-            </ul>
+    <section id="skills" class="reveal">
+        <h2>Skills &amp; Expertise</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Technical Skills</h3>
+                <p>Data Analytics</p>
+                <p>Database Design</p>
+                <p>Oracle SQL &amp; PL/SQL</p>
+                <p>Excel &amp; Decision Support</p>
+            </div>
+            <div class="skill-card">
+                <h3>Programming &amp; Tools</h3>
+                <p>Python</p>
+                <p>C++, Object-Oriented Programming</p>
+                <p>Java</p>
+                <p>HTML &amp; CSS</p>
+                <p>Git &amp; GitHub</p>
+            </div>
+            <div class="skill-card">
+                <h3>Other Expertise</h3>
+                <p>Systems Analysis &amp; Design</p>
+                <p>Cybersecurity Awareness</p>
+                <p>Artificial Intelligence Basics</p>
+            </div>
         </div>
-        <div class="subsection">
-            <h3>Programming & Tools</h3>
-            <ul>
-                <li>Java</li>
-                <li>C++</li>
-                <li>HTML, CSS, JavaScript</li>
-                <li>Python (for Analytics)</li>
-            </ul>
-        </div>
-        <div class="subsection">
-            <h3>Other Expertise</h3>
-            <ul>
-                <li>Cybersecurity Awareness</li>
-                <li>Artificial Intelligence Basics</li>
-            </ul>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section-bg reveal">
+        <h2>Education</h2>
+        <div class="edu-card">
+            <h3>Bachelor of Science in Information Technology</h3>
+            <p class="edu-sub">North-West University, Vanderbijlpark</p>
+            <div class="tag-list">
+                <span class="tag">Data Analytics</span>
+                <span class="tag">Artificial Intelligence</span>
+                <span class="tag">Decision Support Systems</span>
+                <span class="tag">Systems Analysis &amp; Design</span>
+                <span class="tag">Advanced Databases</span>
+                <span class="tag">Data Structures &amp; Algorithms</span>
+                <span class="tag">Object-Oriented Programming</span>
+                <span class="tag">Computer Networks</span>
+                <span class="tag">Operating Systems</span>
+                <span class="tag">Database Systems</span>
+            </div>
         </div>
     </section>
 
     <!-- CERTIFICATES -->
-    <section id="certificates" class="section-bg">
+    <section id="certificates" class="reveal">
         <h2>Certificates</h2>
-        <ul class="dotted-list">
-            <li>
-                Introduction to Data Science - Cisco Networking Academy
-                <a href="assets/intro to data science.pdf" class="btn cert-btn" download>Download Certificate</a>
-            </li>
-            <li>
-                Introduction to Cyber Security - Cisco Networking Academy
-                <a href="assets/intro to cybersecurity.pdf" class="btn cert-btn" download>Download Certificate</a>
-            </li>
-            <li>
-                Data Analytics Essentials - Cisco Networking Academy
-                <a href="assets/Data Analytics Essentials Certificate.pdf" class="btn cert-btn" download>Download Certificate</a>
-            </li>
-        </ul>
+        <div class="cert-grid">
+            <div class="cert-card">
+                <div class="cert-thumb">
+                    <img src="assets/introtodatascience.png" alt="Introduction to Data Science certificate" onerror="this.parentElement.classList.add('no-thumb')">
+                </div>
+                <h4>Introduction to Data Science</h4>
+                <p>Foundational data science principles and workflows.</p>
+                <a href="assets/intro%20to%20data%20science.pdf" class="btn cert-btn" download>Download Certificate</a>
+            </div>
+            <div class="cert-card">
+                <div class="cert-thumb">
+                    <img src="assets/introtocybersecurity.png" alt="Introduction to Cybersecurity certificate" onerror="this.parentElement.classList.add('no-thumb')">
+                </div>
+                <h4>Introduction to Cybersecurity</h4>
+                <p>Cyber threats, risk management, and security best practices.</p>
+                <a href="assets/intro%20to%20cybersecurity.pdf" class="btn cert-btn" download>Download Certificate</a>
+            </div>
+            <div class="cert-card">
+                <div class="cert-thumb">
+                    <img src="assets/dataessentialcertificate.png" alt="Data Analytics Essentials certificate" onerror="this.parentElement.classList.add('no-thumb')">
+                </div>
+                <h4>Data Analytics Essentials</h4>
+                <p>Data cleaning, transformation, SQL queries, and business intelligence.</p>
+                <a href="assets/Data%20Analytics%20Essentials%20Certificate.pdf" class="btn cert-btn" download>Download Certificate</a>
+            </div>
+        </div>
     </section>
 
-    <!-- GITHUB -->
-    <section id="github">
-        <h2>GitHub Projects</h2>
+    <!-- PROJECTS -->
+    <section id="projects" class="section-bg reveal">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-icon"><i class="fas fa-database"></i></div>
+                <h3>SafeRide Transport Services Relational Database System</h3>
+                <p class="project-meta">Group Project &middot; Oracle SQL Developer, PL/SQL</p>
+                <ul>
+                    <li>Designed a normalised Oracle SQL database with structured controls over scheduling, driver allocation, and trip tracking, applying data integrity and validation principles.</li>
+                    <li>Wrote PL/SQL procedures and analytical reports to surface operational risks and support data-driven decision-making, combining database engineering with business analysis.</li>
+                </ul>
+                <div class="project-tags">
+                    <span class="tag">Oracle SQL</span>
+                    <span class="tag">PL/SQL</span>
+                    <span class="tag">Database Design</span>
+                </div>
+                <a href="https://github.com/BrandonMabaso" target="_blank" class="project-link">View on GitHub <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="project-card">
+                <div class="project-icon"><i class="fas fa-book"></i></div>
+                <h3>Textbook Rental Management System</h3>
+                <p class="project-meta">Individual Project &middot; HTML, CSS, C++</p>
+                <ul>
+                    <li>Designed and developed a web-based textbook rental management system, applying software design principles to implement inventory management and rental validation.</li>
+                    <li>Built a user-friendly interface that improved on an earlier console-based version of the application.</li>
+                </ul>
+                <div class="project-tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">C++</span>
+                </div>
+                <a href="https://github.com/BrandonMabaso" target="_blank" class="project-link">View on GitHub <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
         <p class="dotted-list">
-            Check my projects on 
-            <a href="https://github.com/BrandonMabaso" target="_blank">GitHub</a>.
+            More projects on <a href="https://github.com/BrandonMabaso" target="_blank">GitHub</a>.
         </p>
     </section>
 
+    <!-- OPEN TO OPPORTUNITIES -->
+    <section class="reveal">
+        <div class="opportunities-box">
+            <h2>Open to Opportunities</h2>
+            <p>I'm excited to begin my professional career and am actively seeking graduate programmes, internships and entry-level positions where I can learn from experienced teams, tackle meaningful challenges and contribute to innovative technology solutions.</p>
+        </div>
+    </section>
+
     <!-- CONTACT -->
-    <section id="contact" class="section-bg">
+    <section id="contact" class="section-bg reveal">
         <h2>Contact Me</h2>
         <ul class="dotted-list">
             <li>Cell: <a href="tel:0717986296">071 798 6296</a></li>
@@ -112,10 +181,10 @@
     </section>
 
     <!-- SOCIAL MEDIA ICONS -->
-    <section class="social media">
-        <a href="https://github.com/BrandonMabaso" target="_blank"><i class="fab fa-github fa-2x"></i></a>
-        <a href="https://www.linkedin.com/in/fani-mabaso-066142249" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-        <a href="mailto:brandonmabaso17@gmail.com" target="_blank"><i class="fas fa-envelope fa-2x"></i></a>
+    <section class="social-media">
+        <a href="https://github.com/BrandonMabaso" target="_blank" aria-label="GitHub"><img src="assets/github.png" alt="GitHub" class="social-icon-img"></a>
+        <a href="https://www.linkedin.com/in/fani-mabaso-066142249" target="_blank" aria-label="LinkedIn"><img src="assets/linkedin.png" alt="LinkedIn" class="social-icon-img"></a>
+        <a href="mailto:brandonmabaso17@gmail.com" aria-label="Email"><img src="assets/email.png" alt="Email" class="social-icon-img"></a>
     </section>
 
     <!-- FOOTER -->
