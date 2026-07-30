@@ -25,18 +25,6 @@ This portfolio was designed and developed to provide an overview of my experienc
 
 ## Getting Started
 
-1. Clone the repository.
-
-```bash
-git clone https://github.com/yourusername/portfolio.git
-```
-
-2. Open the project folder.
-
-3. Launch `index.html` in your browser, or run it using the VS Code Live Server extension.
-
-## Project Structure
-
 ```
 portfolio/
 │── index.html
