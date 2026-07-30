@@ -1,197 +1,1339 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Fani Mabaso | Portfolio</title>
+
+    <meta name="description"
+        content="Portfolio of Fani Mabaso, a final-year Information Technology student specialising in Data Analytics, Software Development, Database Systems and Systems Analysis.">
+
+    <meta name="keywords"
+        content="Fani Mabaso, Portfolio, Data Analytics, Software Developer, SQL, Python, Java, NWU">
+
+    <meta name="author" content="Fani Mabaso">
+
+    <link rel="icon" href="assets/profile.png">
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
+
 <body>
 
-    <!-- HERO SECTION -->
-    <header class="hero">
-        <div class="hero-text">
-            <h1>Fani Mabaso</h1>
-            <p class="role">Final Year BSc IT Student | Data, Software &amp; Systems</p>
-            <p class="typing-text" id="typing"></p>
-            <div class="hero-buttons">
-                <a href="#contact" class="btn">Get in Touch</a>
-                <a href="assets/FaniMabaso_CV.pdf" class="btn cv-btn" download>Download CV</a>
-            </div>
-        </div>
-        <div class="hero-image">
-            <img src="assets/profile.png" alt="Fani Mabaso" onerror="this.style.display='none'">
-        </div>
-    </header>
+<!-- =========================
+        NAVIGATION
+========================== -->
 
-    <!-- ABOUT ME -->
-    <section id="about" class="section-bg with-bg reveal">
-        <h2>About Me</h2>
-        <div class="about-container">
-            <div class="about-text">
-                <p>
-                    I am a final-year IT student at North-West University (NWU), with a particular focus on
-                    Data Analytics alongside broader software development and systems work. I've completed
-                    certifications in Introduction to Cyber Security, Introduction to Data Science, and Data
-                    Analytics Essentials through the Cisco Networking Academy. My degree has equipped me with
-                    Python,Java, SQL, Excel, C++, OOP, HTML and CSS, database design, and
-                    Systems Analysis enabling me to build, analyze and secure practical technology solutions.
-                </p>
-            </div>
-        </div>
-    </section>
+<nav class="navbar">
 
-    <!-- SKILLS & EXPERTISE -->
-    <section id="skills" class="reveal">
-        <h2>Skills &amp; Expertise</h2>
-        <div class="skills-grid">
-            <div class="skill-card">
-                <h3>Technical Skills</h3>
-                <p>Data Analytics</p>
-                <p>Database Design</p>
-                <p>Oracle SQL &amp; PL/SQL</p>
-                <p>Excel &amp; Decision Support</p>
-            </div>
-            <div class="skill-card">
-                <h3>Programming &amp; Tools</h3>
-                <p>Python</p>
-                <p>C++, Object-Oriented Programming</p>
-                <p>Java</p>
-                <p>HTML &amp; CSS</p>
-                <p>Git &amp; GitHub</p>
-            </div>
-            <div class="skill-card">
-                <h3>Other Expertise</h3>
-                <p>Systems Analysis &amp; Design</p>
-                <p>Cybersecurity Awareness</p>
-                <p>Artificial Intelligence Basics</p>
-            </div>
-        </div>
-    </section>
+    <div class="container nav-container">
 
-    <!-- EDUCATION -->
-    <section id="education" class="section-bg reveal">
-        <h2>Education</h2>
-        <div class="edu-card">
-            <h3>Bachelor of Science in Information Technology</h3>
-            <p class="edu-sub">North-West University, Vanderbijlpark</p>
-            <div class="tag-list">
-                <span class="tag">Data Analytics</span>
-                <span class="tag">Artificial Intelligence</span>
-                <span class="tag">Decision Support Systems</span>
-                <span class="tag">Systems Analysis &amp; Design</span>
-                <span class="tag">Advanced Databases</span>
-                <span class="tag">Data Structures &amp; Algorithms</span>
-                <span class="tag">Object-Oriented Programming</span>
-                <span class="tag">Computer Networks</span>
-                <span class="tag">Operating Systems</span>
-                <span class="tag">Database Systems</span>
-            </div>
-        </div>
-    </section>
+        <a href="#" class="logo">
 
-    <!-- CERTIFICATES -->
-    <section id="certificates" class="reveal">
-        <h2>Certificates</h2>
-        <div class="cert-grid">
-            <div class="cert-card">
-                <div class="cert-thumb">
-                    <img src="assets/introtodatascience.png" alt="Introduction to Data Science certificate" onerror="this.parentElement.classList.add('no-thumb')">
-                </div>
-                <h4>Introduction to Data Science</h4>
-                <p>Foundational data science principles and workflows.</p>
-                <a href="assets/intro%20to%20data%20science.pdf" class="btn cert-btn" download>Download Certificate</a>
-            </div>
-            <div class="cert-card">
-                <div class="cert-thumb">
-                    <img src="assets/introtocybersecurity.png" alt="Introduction to Cybersecurity certificate" onerror="this.parentElement.classList.add('no-thumb')">
-                </div>
-                <h4>Introduction to Cybersecurity</h4>
-                <p>Cyber threats, risk management, and security best practices.</p>
-                <a href="assets/intro%20to%20cybersecurity.pdf" class="btn cert-btn" download>Download Certificate</a>
-            </div>
-            <div class="cert-card">
-                <div class="cert-thumb">
-                    <img src="assets/dataessentialcertificate.png" alt="Data Analytics Essentials certificate" onerror="this.parentElement.classList.add('no-thumb')">
-                </div>
-                <h4>Data Analytics Essentials</h4>
-                <p>Data cleaning, transformation, SQL queries, and business intelligence.</p>
-                <a href="assets/Data%20Analytics%20Essentials%20Certificate.pdf" class="btn cert-btn" download>Download Certificate</a>
-            </div>
-        </div>
-    </section>
+            Fani <span>Mabaso</span>
 
-    <!-- PROJECTS -->
-    <section id="projects" class="section-bg reveal">
-        <h2>Projects</h2>
-        <div class="project-grid">
-            <div class="project-card">
-                <div class="project-icon"><i class="fas fa-database"></i></div>
-                <h3>SafeRide Transport Services Relational Database System</h3>
-                <p class="project-meta">Group Project &middot; Oracle SQL Developer, PL/SQL</p>
-                <ul>
-                    <li>Designed a normalised Oracle SQL database with structured controls over scheduling, driver allocation, and trip tracking, applying data integrity and validation principles.</li>
-                    <li>Wrote PL/SQL procedures and analytical reports to surface operational risks and support data-driven decision-making, combining database engineering with business analysis.</li>
-                </ul>
-                <div class="project-tags">
-                    <span class="tag">Oracle SQL</span>
-                    <span class="tag">PL/SQL</span>
-                    <span class="tag">Database Design</span>
-                </div>
-                <a href="https://github.com/BrandonMabaso" target="_blank" class="project-link">View on GitHub <i class="fas fa-arrow-right"></i></a>
-            </div>
-            <div class="project-card">
-                <div class="project-icon"><i class="fas fa-book"></i></div>
-                <h3>Textbook Rental Management System</h3>
-                <p class="project-meta">Individual Project &middot; HTML, CSS, C++</p>
-                <ul>
-                    <li>Designed and developed a web-based textbook rental management system, applying software design principles to implement inventory management and rental validation.</li>
-                    <li>Built a user-friendly interface that improved on an earlier console-based version of the application.</li>
-                </ul>
-                <div class="project-tags">
-                    <span class="tag">HTML</span>
-                    <span class="tag">CSS</span>
-                    <span class="tag">C++</span>
-                </div>
-                <a href="https://github.com/BrandonMabaso" target="_blank" class="project-link">View on GitHub <i class="fas fa-arrow-right"></i></a>
-            </div>
-        </div>
-        <p class="dotted-list">
-            More projects on <a href="https://github.com/BrandonMabaso" target="_blank">GitHub</a>.
-        </p>
-    </section>
+        </a>
 
-    <!-- OPEN TO OPPORTUNITIES -->
-    <section class="reveal">
-        <div class="opportunities-box">
-            <h2>Open to Opportunities</h2>
-            <p>I'm excited to begin my professional career and am actively seeking graduate programmes, internships and entry-level positions where I can learn from experienced teams, tackle meaningful challenges and contribute to innovative technology solutions.</p>
-        </div>
-    </section>
+        <ul class="nav-links">
 
-    <!-- CONTACT -->
-    <section id="contact" class="section-bg reveal">
-        <h2>Contact Me</h2>
-        <ul class="dotted-list">
-            <li>Cell: <a href="tel:0717986296">071 798 6296</a></li>
-            <li>Email: <a href="mailto:brandonmabaso17@gmail.com">brandonmabaso17@gmail.com</a></li>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/fani-mabaso-066142249" target="_blank">@Brandon Mabaso</a></li>
+            <li><a href="#about">About</a></li>
+
+            <li><a href="#skills">Skills</a></li>
+
+            <li><a href="#tech-stack">Tech Stack</a></li>
+
+            <li><a href="#education">Education</a></li>
+
+            <li><a href="#projects">Projects</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+
         </ul>
-    </section>
 
-    <!-- SOCIAL MEDIA ICONS -->
-    <section class="social-media">
-        <a href="https://github.com/BrandonMabaso" target="_blank" aria-label="GitHub"><img src="assets/github.png" alt="GitHub" class="social-icon-img"></a>
-        <a href="https://www.linkedin.com/in/fani-mabaso-066142249" target="_blank" aria-label="LinkedIn"><img src="assets/linkedin.png" alt="LinkedIn" class="social-icon-img"></a>
-        <a href="mailto:brandonmabaso17@gmail.com" aria-label="Email"><img src="assets/email.png" alt="Email" class="social-icon-img"></a>
-    </section>
+        <a href="assets/Fani Mabaso_CV.pdf"
+           class="btn primary-btn nav-btn"
+           download>
 
-    <!-- FOOTER -->
-    <footer>
-        <p>&copy; 2026 Fani Mabaso</p>
-    </footer>
+            Download CV
 
-    <script src="script.js"></script>
+        </a>
+
+        <button class="hamburger" aria-label="Toggle Navigation">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+    </div>
+
+</nav>
+
+<!-- =========================
+            HERO
+========================== -->
+
+<header class="hero">
+
+    <div class="container hero-container">
+
+        <div class="hero-content">
+
+            <span class="hero-badge">
+
+                👋 Welcome to my Portfolio
+
+            </span>
+
+            <h1>
+
+                Hi, I'm <span>Fani Mabaso</span>
+
+            </h1>
+
+            <h2>
+
+                Aspiring Data Analyst & Software Developer
+
+            </h2>
+
+            <p class="hero-subtitle">
+
+                Final-Year BSc Information Technology Student at
+                North-West University with a passion for
+                Data Analytics, Database Systems,
+                Software Development and Business Technology Solutions.
+
+            </p>
+
+            <p id="typing" class="typing-text"></p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn primary-btn">
+
+                    <i class="fas fa-code"></i>
+
+                    View Projects
+
+                </a>
+
+                <a href="assets/FaniMabaso_CV.pdf"
+                    class="btn secondary-btn"
+                    download>
+
+                    <i class="fas fa-download"></i>
+
+                    Download CV
+
+                </a>
+
+            </div>
+
+            <div class="hero-social">
+
+                <a href="https://github.com/BrandonMabaso"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    <i class="fab fa-github"></i>
+
+                </a>
+
+                <a href="https://www.linkedin.com/in/fani-mabaso-066142249"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    <i class="fab fa-linkedin"></i>
+
+                </a>
+
+                <a href="mailto:brandonmabaso17@gmail.com">
+
+                    <i class="fas fa-envelope"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="assets/profile.png"
+                alt="Fani Mabaso">
+
+        </div>
+
+    </div>
+
+</header>
+
+<main>
+
+<!-- =========================
+            ABOUT
+========================== -->
+
+<section id="about" class="section reveal">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>About Me</h2>
+
+            <p>Who I am and what I enjoy building.</p>
+
+        </div>
+
+        <div class="about-grid">
+
+            <div class="about-text">
+
+                <p>
+
+                    I am a final-year Bachelor of Science in Information Technology
+                    student at North-West University with a growing interest in
+                    Data Analytics, Software Development and Business Technology.
+
+                </p>
+
+                <p>
+
+                    Through my coursework and practical projects, I have developed
+                    experience in Python, Java, Oracle SQL, PL/SQL, database design,
+                    systems analysis, object-oriented programming and data-driven
+                    problem solving.
+
+                </p>
+
+                <p>
+
+                    I enjoy transforming complex problems into practical technology
+                    solutions and continuously expanding my knowledge through
+                    university projects, personal development and Cisco Networking
+                    Academy certifications.
+
+                </p>
+
+            </div>
+
+            <div class="about-cards">
+
+                <div class="about-card">
+
+                    <i class="fas fa-chart-line"></i>
+
+                    <h3>Data Analytics</h3>
+
+                    <p>Turning data into actionable insights.</p>
+
+                </div>
+
+                <div class="about-card">
+
+                    <i class="fas fa-code"></i>
+
+                    <h3>Software Development</h3>
+
+                    <p>Building reliable software solutions.</p>
+
+                </div>
+
+                <div class="about-card">
+
+                    <i class="fas fa-database"></i>
+
+                    <h3>Database Design</h3>
+
+                    <p>Designing efficient relational databases.</p>
+
+                </div>
+
+                <div class="about-card">
+
+                    <i class="fas fa-lightbulb"></i>
+
+                    <h3>Problem Solving</h3>
+
+                    <p>Applying technology to real business challenges.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+        QUICK STATS
+========================== -->
+
+<section class="section section-light reveal">
+
+    <div class="container">
+
+        <div class="stats-grid">
+
+            <div class="stat-card">
+
+                <h2>2+</h2>
+
+                <p>Projects Completed</p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h2>3</h2>
+
+                <p>Cisco Certifications</p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h2>8+</h2>
+
+                <p>Technical Skills</p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h2>2026</h2>
+
+                <p>Expected Graduation</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+            SKILLS
+========================== -->
+
+<section id="skills" class="section section-light reveal">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>
+
+                Technical Skills
+
+            </h2>
+
+            <p>
+
+                Technologies and tools I work with.
+
+            </p>
+
+        </div>
+
+        <div class="skills-grid">
+
+            <article class="skill-card">
+
+                <i class="fas fa-code"></i>
+
+                <h3>
+
+                    Programming
+
+                </h3>
+
+                <ul>
+
+                    <li>Python</li>
+
+                    <li>Java</li>
+
+                    <li>C++</li>
+
+                    <li>HTML5</li>
+
+                    <li>CSS3</li>
+
+                </ul>
+
+            </article>
+
+            <article class="skill-card">
+
+                <i class="fas fa-database"></i>
+
+                <h3>
+
+                    Databases
+
+                </h3>
+
+                <ul>
+
+                    <li>Oracle SQL</li>
+
+                    <li>PL/SQL</li>
+
+                    <li>Database Design</li>
+
+                    <li>Normalization</li>
+
+                    <li>SQL Queries</li>
+
+                </ul>
+
+            </article>
+
+            <article class="skill-card">
+
+                <i class="fas fa-chart-column"></i>
+
+                <h3>
+
+                    Data Analytics
+
+                </h3>
+
+                <ul>
+
+                    <li>Excel</li>
+
+                    <li>Decision Support</li>
+
+                    <li>Data Analysis</li>
+
+                    <li>Business Analytics</li>
+
+                    <li>Reporting</li>
+
+                </ul>
+
+            </article>
+
+            <article class="skill-card">
+
+                <i class="fas fa-laptop-code"></i>
+
+                <h3>
+
+                    Software Engineering
+
+                </h3>
+
+                <ul>
+
+                    <li>Object-Oriented Programming</li>
+
+                    <li>Systems Analysis</li>
+
+                    <li>Git</li>
+
+                    <li>GitHub</li>
+
+                    <li>Problem Solving</li>
+
+                </ul>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+        EDUCATION
+========================== -->
+
+<section id="education" class="section reveal">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Education</h2>
+
+            <p>My academic journey in Information Technology.</p>
+
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-date">
+
+                        2023
+
+                    </span>
+
+                    <h3>
+
+                        Began BSc Information Technology
+
+                    </h3>
+
+                    <h4>
+
+                        North-West University
+
+                    </h4>
+
+                    <p>
+
+                        Started my Bachelor of Science in Information Technology,
+                        building a foundation in programming,
+                        databases,
+                        networking,
+                        mathematics,
+                        and software development.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-date">
+
+                        2024
+
+                    </span>
+
+                    <h3>
+
+                        Core Technical Skills
+
+                    </h3>
+
+                    <p>
+
+                        Expanded my knowledge in Object-Oriented Programming,
+                        Systems Analysis & Design,
+                        Database Systems,
+                        Java,
+                        Python,
+                        SQL,
+                        HTML,
+                        CSS,
+                        and Computer Networks.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-date">
+
+                        2025
+
+                    </span>
+
+                    <h3>
+
+                        Advanced Computing
+
+                    </h3>
+
+                    <p>
+
+                        Focused on Artificial Intelligence,
+                        Decision Support Systems,
+                        Advanced Databases,
+                        Data Analytics,
+                        Software Engineering,
+                        and collaborative development projects.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-date">
+
+                        2026
+
+                    </span>
+
+                    <h3>
+
+                        Final Year
+
+                    </h3>
+
+                    <p>
+
+                        Completing my degree while seeking graduate
+                        opportunities in Data Analytics,
+                        Software Development,
+                        Business Intelligence
+                        and Technology Consulting.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+        CERTIFICATIONS
+========================== -->
+
+<section id="certificates" class="section section-light reveal">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Professional Certifications</h2>
+
+            <p>Continuous learning through Cisco Networking Academy.</p>
+
+        </div>
+
+        <div class="certificate-grid">
+
+            <article class="certificate-card">
+
+                <img src="assets/introtodatascience.png"
+                     alt="Introduction to Data Science">
+
+                <div class="certificate-content">
+
+                    <h3>Introduction to Data Science</h3>
+
+                    <p>
+
+                        Explored data science fundamentals,
+                        data preparation,
+                        visualization,
+                        analytical thinking
+                        and real-world data workflows.
+
+                    </p>
+
+                    <a href="assets/intro to data science.pdf"
+                       download
+                       class="btn primary-btn">
+
+                        Download Certificate
+
+                    </a>
+
+                </div>
+
+            </article>
+
+            <article class="certificate-card">
+
+                <img src="assets/introtocybersecurity.png"
+                     alt="Introduction to Cybersecurity">
+
+                <div class="certificate-content">
+
+                    <h3>Introduction to Cybersecurity</h3>
+
+                    <p>
+
+                        Learned cybersecurity principles,
+                        threat awareness,
+                        risk management,
+                        security best practices
+                        and digital safety.
+
+                    </p>
+
+                    <a href="assets/intro to cybersecurity.pdf"
+                       download
+                       class="btn primary-btn">
+
+                        Download Certificate
+
+                    </a>
+
+                </div>
+
+            </article>
+
+            <article class="certificate-card">
+
+                <img src="assets/dataessentialcertificate.png"
+                     alt="Data Analytics Essentials">
+
+                <div class="certificate-content">
+
+                    <h3>Data Analytics Essentials</h3>
+
+                    <p>
+
+                        Built practical knowledge of
+                        SQL,
+                        data cleaning,
+                        business intelligence,
+                        dashboards
+                        and data-driven decision making.
+
+                    </p>
+
+                    <a href="assets/Data Analytics Essentials Certificate.pdf"
+                       download
+                       class="btn primary-btn">
+
+                        Download Certificate
+
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+        FEATURED PROJECT
+========================== -->
+
+<section class="section section-light reveal">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Featured Project</h2>
+
+            <p>Highlighting one of my strongest university projects.</p>
+
+        </div>
+
+        <div class="featured-project">
+
+            <div class="featured-image">
+
+                <img src="assets/saferide-preview.png.png"
+                     alt="SafeRide Transport Services ER Diagram">
+
+            </div>
+
+            <div class="featured-content">
+
+                <span class="featured-badge">
+
+                    GROUP PROJECT
+
+                </span>
+
+                <h3>
+
+                    SafeRide Transport Services DBMS
+
+                </h3>
+
+                <p>
+
+                    Collaborated in designing and implementing a relational
+                    database management system for a transport company using
+                    Oracle SQL Developer and PL/SQL.
+
+                </p>
+
+                <p>
+
+                    The project focused on data normalization,
+                    entity relationships,
+                    business rules,
+                    stored procedures,
+                    reporting,
+                    and database integrity while supporting transport scheduling,
+                    driver allocation,
+                    and trip management.
+
+                </p>
+
+                <div class="project-tech">
+
+                    <span>Oracle SQL</span>
+
+                    <span>PL/SQL</span>
+
+                    <span>Normalization</span>
+
+                    <span>ER Modelling</span>
+
+                    <span>Database Design</span>
+
+                </div>
+
+                <div class="project-buttons">
+
+                    <a href="https://github.com/thabocoolT/SafeRide-Transport-DBMS"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="btn primary-btn">
+
+                        <i class="fab fa-github"></i>
+
+                        View Repository
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+            PROJECTS
+========================== -->
+
+<section id="projects" class="section section-light reveal">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Projects</h2>
+
+            <p>
+                A selection of academic and personal projects demonstrating my
+                skills in software development, database design and analytical
+                problem solving.
+            </p>
+
+        </div>
+
+        <div class="project-grid">
+
+            <!-- =========================
+                    PROJECT 1
+            ========================== -->
+
+            <article class="project-card">
+
+                <div class="project-image">
+
+                    <img src="assets/textbooks-rental-management-banner.png"
+                         alt="Textbooks Rental Management System">
+
+                </div>
+
+                <div class="project-body">
+
+                    <span class="project-type">
+
+                        Individual Project
+
+                    </span>
+
+                    <h3>
+
+                        Textbooks Rental Management System
+
+                    </h3>
+
+                    <p>
+
+                        Designed and developed a textbook rental management
+                        system to improve inventory management, rental tracking
+                        and user interaction. The project demonstrates software
+                        design principles while evolving an earlier console-based
+                        application into a more user-friendly solution.
+
+                    </p>
+
+                    <div class="tags">
+
+                        <span>HTML5</span>
+
+                        <span>CSS3</span>
+
+                        <span>C++</span>
+
+                        <span>OOP</span>
+
+                    </div>
+
+                    <div class="project-links">
+
+                        <a href="https://github.com/BrandonMabaso/Textbooks-Rental-System"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="btn primary-btn">
+
+                            <i class="fab fa-github"></i>
+
+                            GitHub
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+            <!-- =========================
+                    PROJECT 2
+            ========================== -->
+
+            <article class="project-card">
+
+                <div class="project-image">
+
+                    <img src="assets/saferide-preview.png.png"
+                         alt="SafeRide Transport Services ER Diagram">
+
+                </div>
+
+                <div class="project-body">
+
+                    <span class="project-type">
+
+                        Group Project
+
+                    </span>
+
+                    <h3>
+
+                        SafeRide Transport Services DBMS
+
+                    </h3>
+
+                    <p>
+
+                        Collaborated in the design and implementation of a
+                        relational database system for a transport management
+                        company. The project involved ER modelling,
+                        normalization, PL/SQL programming and analytical
+                        reporting to support operational decision-making.
+
+                    </p>
+
+                    <div class="tags">
+
+                        <span>Oracle SQL</span>
+
+                        <span>PL/SQL</span>
+
+                        <span>Database Design</span>
+
+                        <span>Normalization</span>
+
+                        <span>ER Modelling</span>
+
+                    </div>
+
+                    <div class="project-links">
+
+                        <a href="https://github.com/thabocoolT/SafeRide-Transport-DBMS"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="btn primary-btn">
+
+                            <i class="fab fa-github"></i>
+
+                            GitHub
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+        <div class="projects-footer">
+
+            <p>
+
+                Interested in seeing more?
+
+                Visit my GitHub profile for additional university coursework,
+                programming exercises and ongoing projects.
+
+            </p>
+
+            <a href="https://github.com/BrandonMabaso"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn secondary-btn">
+
+                <i class="fab fa-github"></i>
+
+                View GitHub Profile
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+        CURRENTLY LEARNING
+========================== -->
+
+<section class="section reveal">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Currently Learning</h2>
+
+            <p>Continuously expanding my technical skillset.</p>
+
+        </div>
+
+        <div class="learning-grid">
+
+            <div class="learning-card">
+
+                <i class="fas fa-chart-bar"></i>
+
+                <h3>Business Intelligence</h3>
+
+            </div>
+
+            <div class="learning-card">
+
+                <i class="fas fa-chart-line"></i>
+
+                <h3>Power BI</h3>
+
+            </div>
+
+            <div class="learning-card">
+
+                <i class="fas fa-brain"></i>
+
+                <h3>Machine Learning</h3>
+
+            </div>
+
+            <div class="learning-card">
+
+                <i class="fas fa-cloud"></i>
+
+                <h3>Cloud Technologies</h3>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+    OPEN TO OPPORTUNITIES
+========================== -->
+
+<section id="opportunities" class="section section-light reveal">
+
+    <div class="container">
+
+        <div class="opportunity-card">
+
+            <h2>Open to Opportunities</h2>
+
+            <p>
+
+                I am actively seeking graduate programmes, internships and
+                entry-level opportunities in
+                <strong>Data Analytics</strong>,
+                <strong>Software Development</strong>,
+                <strong>Business Intelligence</strong>,
+                and
+                <strong>Technology Consulting</strong>.
+
+            </p>
+
+            <p>
+
+                I enjoy solving real-world problems through technology,
+                collaborating with teams, and continuously learning new tools
+                and methodologies that create meaningful business value.
+
+            </p>
+
+            <a href="assets/FaniMabaso_CV.pdf"
+               download
+               class="btn primary-btn">
+
+                Download My CV
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+        CONTACT
+========================== -->
+
+<section id="contact" class="section reveal">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Let's Connect</h2>
+
+            <p>
+
+                Feel free to reach out regarding graduate opportunities,
+                collaborations or professional networking.
+
+            </p>
+
+        </div>
+
+        <div class="contact-grid">
+
+            <div class="contact-card">
+
+                <i class="fas fa-phone"></i>
+
+                <h3>Phone</h3>
+
+                <a href="tel:0717986296">
+
+                    071 798 6296
+
+                </a>
+
+            </div>
+
+            <div class="contact-card">
+
+                <i class="fas fa-envelope"></i>
+
+                <h3>Email</h3>
+
+                <a href="mailto:brandonmabaso17@gmail.com">
+
+                    brandonmabaso17@gmail.com
+
+                </a>
+
+            </div>
+
+            <div class="contact-card">
+
+                <i class="fab fa-linkedin"></i>
+
+                <h3>LinkedIn</h3>
+
+                <a href="https://www.linkedin.com/in/fani-mabaso-066142249"
+                   target="_blank"
+                   rel="noopener noreferrer">
+
+                    View Profile
+
+                </a>
+
+            </div>
+
+            <div class="contact-card">
+
+                <i class="fab fa-github"></i>
+
+                <h3>GitHub</h3>
+
+                <a href="https://github.com/BrandonMabaso"
+                   target="_blank"
+                   rel="noopener noreferrer">
+
+                    BrandonMabaso
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+        BACK TO TOP
+========================== -->
+
+<button id="backToTop"
+        class="back-to-top"
+        aria-label="Back to top">
+
+    <i class="fas fa-chevron-up"></i>
+
+</button>
+
+</main>
+
+<!-- =========================
+        FOOTER
+========================== -->
+
+<footer>
+
+    <div class="container footer-content">
+
+        <div class="footer-left">
+
+            <h3>
+
+                Fani Mabaso
+
+            </h3>
+
+            <p>
+
+                Final-Year BSc Information Technology Student
+
+            </p>
+
+            <p>
+
+                Data Analytics • Software Development • Database Systems
+
+            </p>
+
+        </div>
+
+        <div class="footer-links">
+
+            <a href="#about">About</a>
+
+            <a href="#skills">Skills</a>
+
+            <a href="#education">Education</a>
+
+            <a href="#projects">Projects</a>
+
+            <a href="#contact">Contact</a>
+
+        </div>
+
+        <div class="footer-social">
+
+            <a href="https://github.com/BrandonMabaso"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                <i class="fab fa-github"></i>
+
+            </a>
+
+            <a href="https://www.linkedin.com/in/fani-mabaso-066142249"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                <i class="fab fa-linkedin"></i>
+
+            </a>
+
+            <a href="mailto:brandonmabaso17@gmail.com">
+
+                <i class="fas fa-envelope"></i>
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p>
+
+© <span id="year"></span> Fani Mabaso
+
+</p>
+
+        <p>
+
+            Built with HTML5, CSS3 and JavaScript • Hosted on GitHub Pages
+
+        </p>
+
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+
 </body>
+
 </html>
